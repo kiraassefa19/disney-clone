@@ -11,7 +11,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Table(name = "tbl_movies_detail")
-public class movie extends BaseEntity {
+public class Movies extends BaseEntity {
     private String backgroundImg;
 
     private String cardImg;
